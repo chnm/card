@@ -1,107 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
-      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
-      integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
-      crossorigin="anonymous"
-    ></script>
-    <style>
-        @font-face {
-          font-family: 'KidPixies';
-          src: url('KidpixiesRegular-p0Z1.ttf');
-        }
-        @keyframes color-change {
-          0% {background-color: teal;}
-          20% {background-color: gold;}
-          40% {background-color: indianred;}
-          60% {background-color: violet;}
-          80% {background-color: green;}
-          100% {background-color: teal;}
-        }
-      main {
-        max-width: 800px;
-        margin: auto;
-        background-color: white;
-      }
-      body {
-        background-image: url("https://shoutitout-a.akamaihd.net/wp-content/uploads/2016/10/90s-website-style.jpg");
-      }
-      footer {
-        background-color: white;
-        opacity: 75%;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <marquee behavior="scroll" direction="left">
-        Feel better soon!
-      </marquee>
-      <marquee behavior="scroll" direction="right">
-        Thanks for your first year as director!
-      </marquee>
-    </header>
-    <main>
-      <p><strong>Mills,</strong></p>
-      <p>
-        We're sorry to hear that you undergoing surgery, and hope that you
-        recover soon. We thought about circulating a card to each and every
-        person, and then delivering it last of all to you. And then we thought
-        better of it. So here&rsquo;s a card to wish you well the way that only
-        RRCHNM can make one.
-      </p>
-      <p>Best wishes,<br />The RRCHNM Team</p>
 
-      <hr />
-     <p>
-     Mills,<br> 
-     Congrats on your first year as RRCHNM director. You've handled these extreme circumstances as well as possible 
-     and I'm confident that the Center is well positioned to handle the zombie attack and alien invasion that's surely coming in 2021. 
-     I hope your recovery goes smoothly. Since you always have a great joke or a story about Eastern Europe to share, 
-     I want to share my absolute favorite Eastern European under Communism joke:<br>
-     Q: Why do the Czech People's Militia always travel in threes?<br>
-     A: Because they need one to write the citation, one to read the citation, and one to keep an eye on the two dangerous intellectuals. 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+    integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+    integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+  <style>
+    @font-face {
+      font-family: 'KidPixies';
+      src: url('KidpixiesRegular-p0Z1.ttf');
+    }
+
+    @keyframes color-change {
+      0% {
+        background-color: teal;
+      }
+
+      20% {
+        background-color: gold;
+      }
+
+      40% {
+        background-color: indianred;
+      }
+
+      60% {
+        background-color: violet;
+      }
+
+      80% {
+        background-color: green;
+      }
+
+      100% {
+        background-color: teal;
+      }
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+
+    body {
+      background-image: url("https://shoutitout-a.akamaihd.net/wp-content/uploads/2016/10/90s-website-style.jpg");
+    }
+
+    footer {
+      background-color: white;
+      opacity: 75%;
+    }
+
+    blink {
+      -webkit-animation: 2s linear infinite condemned_blink_effect;
+      /* for Safari 4.0 - 8.0 */
+      animation: 2s linear infinite condemned_blink_effect;
+    }
+
+    /* for Safari 4.0 - 8.0 */
+    @-webkit-keyframes condemned_blink_effect {
+      0% {
+        visibility: hidden;
+      }
+
+      50% {
+        visibility: hidden;
+      }
+
+      100% {
+        visibility: visible;
+      }
+    }
+
+    @keyframes condemned_blink_effect {
+      0% {
+        visibility: hidden;
+      }
+
+      50% {
+        visibility: hidden;
+      }
+
+      100% {
+        visibility: visible;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <marquee behavior="scroll" direction="left">
+      Feel better soon!
+    </marquee>
+    <marquee behavior="scroll" direction="right">
+      Thanks for your first year as director!
+    </marquee>
+  </header>
+
+  <main>
+    <p><strong>Mills,</strong></p>
+    <p>
+      We're sorry to hear that you undergoing surgery, and hope that you
+      recover soon. We thought about circulating a card to each and every
+      person, and then delivering it last of all to you. And then we thought
+      better of it. So here&rsquo;s a card to wish you well the way that only
+      RRCHNM can make one.
+    </p>
+    <p>Best wishes,<br />The RRCHNM Team</p>
+
+    <hr />
+    <p>
+      Mills,<br>
+      Congrats on your first year as RRCHNM director. You've handled these extreme circumstances as well as possible
+      and I'm confident that the Center is well positioned to handle the zombie attack and alien invasion that's surely
+      coming in 2021.
+      I hope your recovery goes smoothly. Since you always have a great joke or a story about Eastern Europe to share,
+      I want to share my absolute favorite Eastern European under Communism joke:<br>
+      Q: Why do the Czech People's Militia always travel in threes?<br>
+      A: Because they need one to write the citation, one to read the citation, and one to keep an eye on the two
+      dangerous intellectuals.
       <br>
-       &mdash;Nate
-       </p> 
-      <p>Wishing you a speedy recovery, Mills! Thanks for your leadership and for the warm welcome to RRCHNM. &mdash;Jessica M.</p>
-      <p>
-        Hope your knee is better and that you are back on the trail soon! Thanks
-        for a great first year as director.
-        <a
-          href="#"
-          onclick="alert('You might want to run antivirus software on this card.');"
-          >Click here.</a
-        >
-        &mdash;Lincoln
-      </p>
-      <p>Thanks for a wonderful first year. Hope you have time to take it easy, rest and recover. Stay tubular! </br> &mdash;Megan</p>
-  <a href="/gif/tubeguycake-VRoXxx" title="tubeguycake"><img src="https://i.makeagif.com/media/8-19-2019/VRoXxx.gif" alt="tubeguycake"></a><div style="font-size:11px;">make <a href="/" title="make a gif">funny GIFs</a> like this at MakeaGif</div>
-        <marquee direction="down" width="800" height="500" behavior="alternate" style="border:solid; animation: color-change 1s infinite;">
-          <marquee behavior="alternate">
-            <h3 style="font-family: KidPixies; font-size: 5em">Mills,<br>Get well soon!<br>&mdash;Jim</h3>
-          </marquee>
-        </marquee>
-	<p style="height:250px"><img style="height:200px;float:right" alt="A headshot of all-Time Nationals great, Nook Logan" src="https://i.imgur.com/CQQmNH8.jpg">I tried to get all-time Nationals great Ryan Zimmerman to come vist you at the hospital, but he declined due to health concerns. So, instead I got this picture of number two on the list of all-time Nationals greats, Nook Logan, to cheer you up. Hope it's a quick recovery!</p>
-	<p><blink>Thanks for a great first year as director! Hope your knee heals soon so you can be back on the AT. &mdash;Abby</blink></p>
-    </main>
-    <footer>
-      <div>This Web page is Roy Rosenzweig powered.</div>
-      <div>Works best with Netscape Navigator 2.02<br><img src="https://miro.medium.com/max/206/1*cqLQDb_FusL7e8ltKXCwWA.gif"></div>
-      <div><img style="width: 100%;" src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555999902/shape/mentalfloss/construction_8.gif?itok=i0AHeyO3"></div>
-    </footer>
+      &mdash;Nate
+    </p>
+    <p>Wishing you a speedy recovery, Mills! Thanks for your leadership and for the warm welcome to RRCHNM.
+      &mdash;Jessica M.</p>
+    <p>
+      Hope your knee is better and that you are back on the trail soon! Thanks
+      for a great first year as director.
+      <a href="#" onclick="alert('You might want to run antivirus software on this card.');">Click here.</a>
+      &mdash;Lincoln
+    </p>
+    <p>Thanks for a wonderful first year. Hope you have time to take it easy, rest and recover. Stay tubular! </br>
+      &mdash;Megan</p>
+    <a href="/gif/tubeguycake-VRoXxx" title="tubeguycake"><img src="https://i.makeagif.com/media/8-19-2019/VRoXxx.gif"
+        alt="tubeguycake"></a>
+    <div style="font-size:11px;">make <a href="/" title="make a gif">funny GIFs</a> like this at MakeaGif</div>
+    <marquee direction="down" width="800" height="500" behavior="alternate"
+      style="border:solid; animation: color-change 1s infinite;">
+      <marquee behavior="alternate">
+        <h3 style="font-family: KidPixies; font-size: 5em">Mills,<br>Get well soon!<br>&mdash;Jim</h3>
+      </marquee>
+    </marquee>
+    <p style="height:250px"><img style="height:200px;float:right"
+        alt="A headshot of all-Time Nationals great, Nook Logan" src="https://i.imgur.com/CQQmNH8.jpg">I tried to get
+      all-time Nationals great Ryan Zimmerman to come vist you at the hospital, but he declined due to health concerns.
+      So, instead I got this picture of number two on the list of all-time Nationals greats, Nook Logan, to cheer you
+      up. Hope it's a quick recovery!</p>
+    <p>
+      <blink>Thanks for a great first year as director! Hope your knee heals soon so you can be back on the AT.
+        &mdash;Abby</blink>
+    </p>
+  </main>
+
+  <footer>
+    <div>This Web page is Roy Rosenzweig powered.</div>
+    <div>Works best with Netscape Navigator 2.02<br><img
+        src="https://miro.medium.com/max/206/1*cqLQDb_FusL7e8ltKXCwWA.gif"></div>
+    <div><img style="width: 100%;"
+        src="https://images2.minutemediacdn.com/image/upload/c_fit,f_auto,fl_lossy,q_auto,w_728/v1555999902/shape/mentalfloss/construction_8.gif?itok=i0AHeyO3">
+    </div>
+  </footer>
   <script>
-      alert("WELCOME to the \"T. Mills Kelly Get Well Card\"™\n© RRCHNM, Summer 2020\nClick OK to continue");
+    alert("WELCOME to the \"T. Mills Kelly Get Well Card\"™\n© RRCHNM, Summer 2020\nClick OK to continue");
   </script>
-  </body>
+</body>
+
 </html>
