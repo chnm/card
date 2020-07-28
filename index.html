@@ -98,7 +98,8 @@
 
   <header>
     <marquee behavior="scroll" direction="left">
-      <p style="background-color:yellow;">Feel better soon!<p>
+      <p style="background-color:yellow;">Feel better soon!
+      <p>
     </marquee>
     <marquee behavior="scroll" direction="right">
       <p style="background-color:cyan;">Thanks for your first year as director!</p>
@@ -170,9 +171,11 @@
       <blink>Thanks for a great first year as director! Hope your knee heals soon so you can be back on the AT.
         &mdash;Abby</blink>
     </p>
-      <p>Best wishes for your recovery and hope you get back to hiking, soon! Jessica O.
+    <p>Best wishes for your recovery and hope you get back to hiking, soon! Jessica O.
     </p>
-      </div>
+    <p>Hope your knee recovers quickly after surgery! Thanks for making me feel comfortable and welcome at the center!
+      &mdash;Laura</p>
+    </div>
 
   </main>
 
@@ -187,7 +190,7 @@
     alert("WELCOME to the \"T. Mills Kelly Get Well Card\"™\n© RRCHNM, Summer 2020\nClick OK to continue");
   </script>
   <script type="text/javascript" charset="utf-8">
-    var addQ=function(){document.getElementById('open-a-window').insertAdjacentHTML('afterend','<canvas id="q" style="position:fixed; width:100%; height:100%; left:0; top:0;"></canvas>')};var removeQ=function(){document.getElementById('q').remove()};var raincode=function(){var s=window.screen;var q=document.getElementById('q');var width=q.width=s.width;var height=q.height=s.height;var letters=Array(256).join(1).split('');var draw=function(){if(!q){return}q.getContext('2d').fillStyle='rgba(0,0,0,.05)';q.getContext('2d').fillRect(0,0,width,height);q.getContext('2d').fillStyle='#0F0';drawMessage("Thank you for taking the job and working to keep the RRCHNM spirit alive now and into the future.");drawMessage("Hope you recover quickly, but until you do enjoy a view of the world from somewhere else...",1);letters.map(function(y_pos,index){text=String.fromCharCode(3e4+Math.random()*33);x_pos=index*10;q.getContext('2d').fillText(text,x_pos,y_pos);letters[index]=(y_pos>758+Math.random()*1e4)?0:y_pos+10})};setInterval(draw,33)};var drawMessage=function(message,offset=0){var q=document.getElementById('q');var ctx=q.getContext('2d');var width=q.width;var height=q.height;ctx.save();ctx.font='30px sans-serif';var y=(0.5*height+(37*(offset+1)));ctx.fillText(message,0.33*width,y,0.33*width);ctx.restore()};var pi=function(){document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterend','<a id="open-a-window" style="position:absolute; right:3rem; background-color:white; font-size:1.5rem; padding:0.5rem;">π</a>');document.getElementById('open-a-window').onclick=function(){addQ();raincode();setTimeout(function(){window.location='https://www.window-swap.com/window';removeQ()},10000)}};pi();
+    var addQ = function () { document.getElementById('open-a-window').insertAdjacentHTML('afterend', '<canvas id="q" style="position:fixed; width:100%; height:100%; left:0; top:0;"></canvas>') }; var removeQ = function () { document.getElementById('q').remove() }; var raincode = function () { var s = window.screen; var q = document.getElementById('q'); var width = q.width = s.width; var height = q.height = s.height; var letters = Array(256).join(1).split(''); var draw = function () { if (!q) { return } q.getContext('2d').fillStyle = 'rgba(0,0,0,.05)'; q.getContext('2d').fillRect(0, 0, width, height); q.getContext('2d').fillStyle = '#0F0'; drawMessage("Thank you for taking the job and working to keep the RRCHNM spirit alive now and into the future."); drawMessage("Hope you recover quickly, but until you do enjoy a view of the world from somewhere else...", 1); letters.map(function (y_pos, index) { text = String.fromCharCode(3e4 + Math.random() * 33); x_pos = index * 10; q.getContext('2d').fillText(text, x_pos, y_pos); letters[index] = (y_pos > 758 + Math.random() * 1e4) ? 0 : y_pos + 10 }) }; setInterval(draw, 33) }; var drawMessage = function (message, offset = 0) { var q = document.getElementById('q'); var ctx = q.getContext('2d'); var width = q.width; var height = q.height; ctx.save(); ctx.font = '30px sans-serif'; var y = (0.5 * height + (37 * (offset + 1))); ctx.fillText(message, 0.33 * width, y, 0.33 * width); ctx.restore() }; var pi = function () { document.getElementsByTagName('footer')[0].insertAdjacentHTML('afterend', '<a id="open-a-window" style="position:absolute; right:3rem; background-color:white; font-size:1.5rem; padding:0.5rem;">π</a>'); document.getElementById('open-a-window').onclick = function () { addQ(); raincode(); setTimeout(function () { window.location = 'https://www.window-swap.com/window'; removeQ() }, 10000) } }; pi();
   </script>
 </body>
 
